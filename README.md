@@ -1,4 +1,5 @@
 # SQL Store Sales Analysis
+End-to-end data analysis project using SQL and Power BI to analyze e-commerce sales performance.
 
 ## Project Overview
 This project presents an end-to-end data analysis workflow using SQL and Power BI.
@@ -23,29 +24,41 @@ The database contains the following tables:
 - categories
 - payments
 
-Relationships between tables are presented in the schema diagram.
-
 ## Analysis Performed
-Examples of analytical queries:
-- Top customers by total spending
-- Revenue per country
-- Best selling products
+
+### Customer Analysis
+- Top 5 customers by total spending
+- Revenue generated per country
+- Customers who purchased the most products within each category
+
+### Product Analysis
+- Top 5 best-selling products
+- Products generating the highest revenue
+- Slow-moving products with low sales
+
+### Category Analysis
+- Top revenue-generating categories
+
+### Time Analysis
 - Monthly revenue trends
-- Payment method distribution
+- Year-over-year revenue growth
 
 ## Power BI Dashboard
 The project also includes a Power BI dashboard presenting:
 - Total revenue
-- Revenue by country
+- Total orders
+- Total Customers
 - Revenue by category
-- Top customers
-- Sales trends
+- Revenue trend
+- Top 10 products
+- Country filter
 
-## Files in Repository
-SQL scripts – database creation and analytical queries  
-CSV files – generated datasets  
-Power BI file – interactive dashboard  
-Schema diagram – database structure visualization
+## Project Structure
+data - generated datasets used in the analysis
+-- data_powerbi - generated datasets used in Power BI
+sql - SQL scripts for database creation and analytical queries  
+powerbi - Power BI dashboard file  
+images - dashboard preview image
 
 ## Author
 Data analysis portfolio project created to practice SQL data analysis and data visualization.
