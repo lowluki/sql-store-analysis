@@ -54,11 +54,11 @@ The project also includes a Power BI dashboard presenting:
 - Country filter
 
 ## Project Structure
-data - generated datasets used in the analysis
--- data_powerbi - generated datasets used in Power BI
-sql - SQL scripts for database creation and analytical queries  
-powerbi - Power BI dashboard file  
-images - dashboard preview image
+- data - generated datasets used in the analysis
+- data_powerbi - generated datasets used in Power BI
+- sql - SQL scripts for database creation and analytical queries  
+- powerbi - Power BI dashboard file  
+- images - dashboard preview image
 
 ## Author
 Data analysis portfolio project created to practice SQL data analysis and data visualization.
