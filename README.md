@@ -9,6 +9,11 @@ SQL
 Power BI  
 Git & GitHub
 
+## Data
+The project includes two datasets:
+- Raw generated data used to simulate the e-commerce database
+- CSV exports used in the Power BI dashboard
+
 ## Database Structure
 The database contains the following tables:
 - customers
@@ -44,3 +49,6 @@ Schema diagram – database structure visualization
 
 ## Author
 Data analysis portfolio project created to practice SQL data analysis and data visualization.
+
+## Dashboard Preview
+![Dashboard](images/dashboard.png)
