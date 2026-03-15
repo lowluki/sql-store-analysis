@@ -68,4 +68,4 @@ Data analysis portfolio project created to practice SQL data analysis and data v
 
 ## Relationships between tables Preview
 ![Relationships between tables](images/relationships_between_tables.png)
-This diagram shows the relationships between all tables used in the project.
+This picture shows the relationships between all tables used in the project.
