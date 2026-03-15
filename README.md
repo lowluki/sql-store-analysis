@@ -65,5 +65,7 @@ Data analysis portfolio project created to practice SQL data analysis and data v
 
 ## Dashboard Preview
 ![Dashboard](images/dashboard.png)
-![Relationships between tables] (images/relationshipsbetweentables.png)
+
+## Relationships between tables Preview
+![Relationships between tables](images/relationshipsbetweentables.png)
 This diagram shows the relationships between all tables used in the project.
