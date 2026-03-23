@@ -50,9 +50,9 @@ To improve query performance, indexes were applied and tested using EXPLAIN ANAL
 Query:
 SELECT * FROM orders WHERE status = 'delivered';
 - Before: full table scan (type: ALL)
-![BEFORE INDEX](images/BEFORE_INDEX_1.png)
+![BEFORE INDEX 1](images/BEFORE_INDEX_1.png)
 - After: index lookup using idx_status
-![AFTER INDEX](images/BEFORE_INDEX_1.png)
+![AFTER INDEX 1](images/BEFORE_INDEX_1.png)
 Result:
 Reduced scanned rows and lower query cost, improving performance.
 
@@ -62,9 +62,9 @@ SELECT * FROM orders
 WHERE status = 'shipped'
 AND order_date BETWEEN '2024-01-01' AND '2024-02-01';
 - Before: full table scan (type: ALL)
-![BEFORE INDEX](images/BEFORE_INDEX_2.png)
+![BEFORE INDEX 2](images/BEFORE_INDEX_2.png)
 - After: index range scan using composite index
-![BEFORE INDEX](images/BEFORE_INDEX_2.png)
+![BEFORE INDEX 2](images/BEFORE_INDEX_2.png)
 Result:
 Reduced scanned rows and improved query efficiency.
 
@@ -73,9 +73,9 @@ Query:
 SELECT * FROM order_items
 WHERE order_id = 100 AND quantity >= 2;
 - Before: index lookup on order_id with additional filtering on quantity
-![BEFORE INDEX](images/BEFORE_INDEX_3.png)
+![BEFORE INDEX 3](images/BEFORE_INDEX_3.png)
 - After: index range scan using composite index
-![BEFORE INDEX](images/BEFORE_INDEX_3.png)
+![BEFORE INDEX 3](images/BEFORE_INDEX_3.png)
 Result:
 Indexes reduced scanned rows and improved query performance.
 
